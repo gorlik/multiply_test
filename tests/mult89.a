@@ -13,10 +13,10 @@ n   = $01   ; 1 byte
 ; The next 6 variables must be contiguous and in this order
 a01 = $02   ; workspace
 b01 = $03   ; workspace
-b0  = $04   ; input (2 bytes)
-b1  = $05   ;
-a0  = $06   ; input (2 bytes)
-a1  = $07   ;
+a0  = $04   ; input (2 bytes) and output (4 bytes)
+a1  = $05   ;
+b0  = $06   ; input (2 bytes)
+b1  = $07   ;
 
 karatsuba:
 

@@ -18,10 +18,10 @@ void test_pre(thread_context_t* threadContext, uint64_t input) {
 uint64_t test_post(thread_context_t* threadContext) {
     zuint8* memory = threadContext->machine.context;
 
-    uint64_t a = memory[6];
-    uint64_t b = memory[7];
-    uint64_t c = memory[4];
-    uint64_t d = memory[5];
+    uint64_t a = memory[4];
+    uint64_t b = memory[5];
+    uint64_t c = memory[6];
+    uint64_t d = memory[7];
 
     return a + 256UL*(b + 256UL*(c + 256UL*d));
 }
