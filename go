@@ -97,7 +97,7 @@ function test() {
 #test "mult86" 0xA00
 #test "mult87" 0x400
 #test "mult88" 0x200
-test "mult89" 0x200
+#test "mult89" 0x200
 
 #test "smult1" 0xa00
 #test "smult2" 0x200
@@ -110,6 +110,7 @@ test "mult89" 0x200
 #test "smult9" 0x200
 #test "smult10" 0x9ff
 #test "smult11" 0xb00
+test "smult12" 0xa00
 
 #test "omult1" 0x200
 #test "omult2" 0x200
